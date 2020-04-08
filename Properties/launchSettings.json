@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Cloudreve_FileSynchronizer": {
+      "commandName": "Project",
+      "commandLineArgs": ""
+    }
+  }
+}
