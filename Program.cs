@@ -236,7 +236,6 @@ namespace Cloudreve_FileSynchronizer
 
             //string connectionString = "Server={SERVER};Port={PORT};database={DATABASE};uid={UID};pwd={PWD};SslMode=None";
             var opt = new OptionSet() {
-            // 注册 解析必填参数(required)、参数描述、解析回调函数
                 {
                     "s|source-dir=", "source directory to upload",
                     v => {
@@ -354,12 +353,6 @@ namespace Cloudreve_FileSynchronizer
             Console.WriteLine();
             Console.WriteLine("Options:");
             p.WriteOptionDescriptions(Console.Out);
-        }
-
-        private static void Debug(string format, params object[] args)
-        {
-            Console.Write("# ");
-            Console.WriteLine(format, args);
         }
     }
 }
