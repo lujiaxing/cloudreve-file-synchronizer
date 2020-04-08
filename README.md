@@ -8,7 +8,7 @@ A simple post-offline-copy file list synchronizer.
 
 
 
-Usage:
+# Usage:
 
 ```
 Cloudreve_FileSynchronizer -s /source/directory -t /target/path/in/cloudreve -n user-name -p policy-id -c "Server=xxx;Port=3306;database=Cloudreve_Database;uid=xxxx;pwd=xxx;"
@@ -16,14 +16,18 @@ Cloudreve_FileSynchronizer -s /source/directory -t /target/path/in/cloudreve -n 
 
 Options:
 
-  --s, --source-dir=VALUE     source directory to upload
+  -s, --source-dir=VALUE     source directory to upload
 
-  --n, --user-name=VALUE      upload for whom
+  -n, --user-name=VALUE      upload for whom
 
-  --p, --policy-id=VALUE      storage policy id
+  -p, --policy-id=VALUE      storage policy id
 
-  --t, --target=VALUE         base directory path
+  -t, --target=VALUE         base directory path
 
-  --c, --connection-string=VALUE Connection string to a mysql instance
+  -c, --connection-string=VALUE Connection string to a mysql instance
 
-  --h, --help                 show help
+  -h, --help                 show help
+  
+# Requirements
+  .NET Core 3.1
+  libgdiplus (Linux)
