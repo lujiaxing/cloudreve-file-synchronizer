@@ -30,4 +30,5 @@ Options:
   
 # Requirements
   .NET Core 3.1
+  
   libgdiplus (Linux)
